@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="paulrachwalski.uiuc.datacollectionframework.Activities.AddLabelsActivity">
+
+    <ListView
+        android:id="@+id/label_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/no_labels_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:visibility="visible"
+
+        android:textColor="@color/text_main"
+        android:textSize="20sp"
+        android:text="@string/no_labels_in_project"/>
+
+    <Button
+        android:id="@+id/add_label_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_below="@id/no_labels_text"
+        android:background="@drawable/round_rect_button"
+        android:visibility="visible"
+
+        android:textColor="@color/button_text"
+        android:text="@string/add_a_label"/>
+
+</RelativeLayout>

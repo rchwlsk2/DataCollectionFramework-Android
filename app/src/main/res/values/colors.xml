@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="action_bar_main">#001F3F</color>
+    <color name="background_main">#EEEEEE</color>
+    <color name="text_action_bar">#FFFFFF</color>
+    <color name="text_main">#555555</color>
+    <color name="button_text">#FFFFFF</color>
+    <color name="grey_button">#88000000</color>
+    <color name="green_button">#2ECC40</color>
+    <color name="red_button">#FF4136</color>
+    <color name="item_selected">#777FDBFF</color>
+</resources>

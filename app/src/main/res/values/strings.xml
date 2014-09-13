@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Data Collection Framework</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_next">Next</string>
+    <string name="action_add">Add</string>
+    <string name="title_activity_project_selection">ProjectSelectionActivity</string>
+    <string name="create_new_project_label">Create New Project</string>
+    <string name="open_existing_project">Open Existing Project</string>
+    <string name="title_activity_choose_data">Select Data Types</string>
+    <string name="title_activity_add_labels">Add Labels</string>
+    <string name="no_labels_in_project">No labels currently in project</string>
+    <string name="add_a_label">Add Label</string>
+    <string name="fake_time_stamp">00:00.000</string>
+    <string name="title_activity_new_project">NewProjectActivity</string>
+    <string name="project_name_label">Project Name</string>
+    <string name="project_name_hint">ex. ExploringTheQuad</string>
+    <string name="user_id_label">User ID</string>
+    <string name="user_id_hint">ex. JoeSmith</string>
+    <string name="title_activity_my">MyActivity</string>
+    <string name="title_activity_summary">SummaryActivity</string>
+    <string name="data_collection_summary">Data Collection Summary</string>
+    <string name="project_name">Project:</string>
+    <string name="user_id">User ID:</string>
+    <string name="number_of_labels">Number of Labels:</string>
+    <string name="start_time">Start Time:</string>
+    <string name="end_time">End Time:</string>
+    <string name="date">Date:</string>
+
+</resources>

@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CollectionActivity">
+
+    <RelativeLayout
+        android:id="@+id/button_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/round_rect_button_green"
+
+            android:textColor="@color/button_text"
+            android:textSize="22sp"
+            android:text="Start"/>
+
+        <Button
+            android:id="@+id/stop_button"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/start_button"
+            android:background="@drawable/round_rect_button"
+
+            android:textColor="@color/button_text"
+            android:textSize="22sp"
+            android:text="Stop"/>
+
+        <TextView
+            android:id="@+id/time_stamp_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/start_button"
+            android:layout_alignBottom="@id/start_button"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="5dp"
+
+            android:textColor="@color/text_main"
+            android:textSize="34sp"
+            android:text="@string/fake_time_stamp"/>
+
+        <Button
+            android:id="@+id/add_label_button"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/start_button"
+            android:layout_toLeftOf="@id/stop_button"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/round_rect_button"
+
+            android:textColor="@color/button_text"
+            android:textSize="22sp"
+            android:text="@string/add_a_label"/>
+        </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/button_layout"
+        android:layout_marginTop="19dp"
+        android:background="@color/text_main"/>
+
+    <ListView
+        android:id="@+id/label_quick_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/button_layout"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
